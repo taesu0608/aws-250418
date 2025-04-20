@@ -1,8 +1,8 @@
 package org.example.aws250418
 
+import software.amazon.awssdk.services.s3.S3Client
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
-import software.amazon.awssdk.services.s3.S3Client
 
 @RestController
 class HomeController (

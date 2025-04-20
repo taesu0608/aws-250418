@@ -27,7 +27,7 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
-    implementation("aws.sdk.kotlin:s3:0.22.0-beta")
+    implementation("io.awspring.cloud:spring-cloud-aws-starter-s3:3.3.0")
 }
 
 kotlin {
